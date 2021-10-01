@@ -1,7 +1,7 @@
 %Octave Scrip
 %Title           :Clasificacion de numeros
 %Description     :Scrip para recordar conceptos de numeros
-%Author          :Kevin Yoan Calderón García
+%Author          :Kevin Yoan CalderÃ³n GarcÃ­a
 %Date            :28-08-2021
 %Version         :1
 %Usage           :
@@ -17,7 +17,7 @@ c_numeros_Reales = '?= {I,? ? ?}';
 
 %Proporciones de los numeros, sean a,b,c,d,e ??
 
-'Propiedades de ?(cerradura)'
+disp('Propiedades de ?(cerradura)')
 %Propiedades de ?(cerradura)
 p_cerradura = 'a + b ??';
 p_cerradura2 = 'ab ??';
@@ -28,7 +28,7 @@ b = 5;
 a+b
 a*b
 
-'Propiedad asociativa'
+disp('Propiedad asociativa')
 %Propiedad asociativa
 p_asociativa = 'a + (b+c)';
 p_asociativa2 = 'a(bc) = (ab)c';
@@ -41,7 +41,7 @@ a+b + c
 a* b*c
 a* b*c
 
-'Propiedad conmutativa'
+disp('Propiedad conmutativa')
 %Propiedad conmutativa
 p_conmutativa = 'a + b = b + a';
 p_conmutativa2 = 'ab = ba';
@@ -52,7 +52,7 @@ b+a
 a*b
 b*a
 
-'Propiedad distributiva'
+disp('Propiedad distributiva')
 %Propiedad distributiva
 p_distributiva = 'a(b+c) = ab + ac';
 a=10;
@@ -60,7 +60,7 @@ b=20;
 a * (b+c)
 a*b + a*c
 
-'Neutro aditivo'
+disp('Neutro aditivo')
 %Neutro aditivo
 p_neutroA = 'a + 0 = a';
 p_neutroA2 = 'Ojo: a + 0 = 0 + a --> es conmutativa';
@@ -69,25 +69,25 @@ a+0
 a+0
 0+a
 
-'Neutro multiplicativo'
+disp('Neutro multiplicativo')
 %Neutro multiplicativo
 p_neutroM = 'a(1) = a';
 a = 20;
 a*1
 
-'Inverso aditivo'
+disp('Inverso aditivo')
 %Inverso aditivo
 p_inversoM = 'a + - a = 0';
 a = 30;
 a+ -a
 
-'Inverso multiplicativo o reciproco'
+disp('Inverso multiplicativo o reciproco')
 %Inverso multiplicativo o reciproco
 p_inversoM = 'a(1/a) = 1';
 a = 10;
 a * 1/a
 
-'Propiedad transitiva (| entonces)'
+disp('Propiedad transitiva (| entonces)')
 %Propiedad transitiva (| entonces)
 p_transitiva = 'si a > b y b > c | a > c';
 p_transitiva2 = 'si a = b y b = c | a = c';
@@ -101,7 +101,7 @@ a=b
 b=c
 a=c
 
-'Tricotomia (raiz de algebra) siempre se puede comparar'
+disp('Tricotomia (raiz de algebra) siempre se puede comparar')
 %Tricotomia (raiz de algebra) siempre se puede comparar
 p_tricotomia = 'a > b';
 p_tricotomia2 = 'a = b';
@@ -112,7 +112,7 @@ a > b
 a = b
 a < b
 
-'Signos de agrupacion'
+disp('Signos de agrupacion')
 %Signos de agrupacion
 s_agrupacion = '{[()]}';
 '{[()]}'
