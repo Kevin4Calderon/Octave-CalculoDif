@@ -3,7 +3,7 @@
 % Autor: Diego Armando Cruz Hernández
 %Kevin Yoan Calderon
 % Carlos Alberto Godoy Cruz 
-% Fecha: 20211014
+% Fecha: 14/10/2021
 % Versión: 1
 % De uso: C:\Users\19403219\Documents\Octave
 % Notas: Requiere aplicacion octava, usar su linea de comandos
