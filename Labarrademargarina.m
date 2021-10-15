@@ -1,6 +1,6 @@
 % Título: La barra de margarina
 % Descripción: Script
-% Autor: 
+% Autor: Kevin Yoan Calderón García
 % Fecha: 20211014
 % Versión: 1
 % De uso: C:\Users\19403219\Documents\Octave
