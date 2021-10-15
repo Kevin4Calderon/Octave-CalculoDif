@@ -1,6 +1,6 @@
 % Título: La barra de margarina
 % Descripción: Script
-% Autor: Diego Armando Cruz Hernández % 
+% Autor: Diego Armando Cruz Hernández
 %Kevin Yoan Calderon   
 % Fecha: 20211014
 % Versión: 1
