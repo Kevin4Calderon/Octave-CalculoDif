@@ -9,16 +9,18 @@
 % Notas: Requiere aplicacion octava, usar su linea de comandos
 %Ejemplo de diemnsiones para gastar menos papel 
 %Rango del valor 
-x=4.7622;
+x=0:0.1:8;
 %Valor de la funcion 
 at=@(x) 2 * x.^2 + 4*x;
 %Funcion a plotear 
-y=108/x.^2 
+y=2 * x.^2 + 4*x;
+%minimo
+resr=fminbnd(at,0,8);
 %Dibujar x,y
-plot(x,y,'ro-');
+plot(x,y);
 %Titulo
-title(['Material minimo x = ' num2str(x)]);
+title(['Material minimo x = ' num2str(resr)]);
 %Etiqueta para x
-xlabel(['Min x = ' num2str(x)]);
+xlabel(['Min x = ' num2str(resr)]);
 %Etiqueta para y
-ylabel(['Min y = ' num2str(x)]);
+ylabel(['Min y = ' num2str(at(resr))]);
